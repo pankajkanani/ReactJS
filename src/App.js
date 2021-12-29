@@ -10,7 +10,6 @@ export default function App() {
     } else {
       setName("usestate");
     }
-    setName("usestate tutorial");
   };
   return (
     <div className="App">
