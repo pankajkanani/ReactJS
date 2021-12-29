@@ -4,6 +4,12 @@ import "./styles.css";
 export default function App() {
   const [name, setName] = useState("usestate");
   const ChangeName = () => {
+    let val = name;
+    if (val === "usestate") {
+      setName("usestate tutorial");
+    } else {
+      setName("usestate");
+    }
     setName("usestate tutorial");
   };
   return (
